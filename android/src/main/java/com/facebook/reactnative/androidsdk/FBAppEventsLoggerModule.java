@@ -206,7 +206,7 @@ public class FBAppEventsLoggerModule extends ReactContextBaseJavaModule {
       *
       * @return The set User ID or null
       */
-     @ReactMethod(isBlockingSynchronousMethod = true)
+     //@ReactMethod()
      @Nullable
      public String getUserID() {
        return mAppEventLogger.getUserID();
